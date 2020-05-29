@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1590753093076" stop="1590753120294" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1590753093142" stop="1590753120286" status="passed">
+            <name>Login into the application with valid credentials</name>
+            <title>Login into the application with valid credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1590753103981" stop="1590753110452" status="passed">
+                    <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
+                    <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753110453" stop="1590753113314" status="passed">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753113314" stop="1590753113386" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753113387" stop="1590753113984" status="passed">
+                    <name>When I enter username as "mandula223@gmail.com"</name>
+                    <title>When I enter username as "mandula223@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753113984" stop="1590753115931" status="passed">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753115932" stop="1590753116419" status="passed">
+                    <name>And I enter password as "testpassword"</name>
+                    <title>And I enter password as "testpassword"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753116420" stop="1590753118047" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="9618843b-56f1-44fc-9d95-c3fd1df2e085-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with valid credentials"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="DESKTOP-84OUAB0"/>
+                <label name="thread" value="16528@DESKTOP-84OUAB0.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1590753615992" stop="1590753646420" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should not be able to login with invalid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1590753616060" stop="1590753646413" status="passed">
+            <name>Login into the application with valid credentials</name>
+            <title>Login into the application with valid credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1590753627440" stop="1590753634050" status="passed">
+                    <name>Given I am on the Login page URL "https://www.amazon.in/"</name>
+                    <title>Given I am on the Login page URL "https://www.amazon.in/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753634052" stop="1590753638261" status="passed">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753638262" stop="1590753638319" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753638320" stop="1590753639020" status="passed">
+                    <name>When I enter username as "mandula223@gmail.com"</name>
+                    <title>When I enter username as "mandula223@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753639020" stop="1590753641362" status="passed">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753641363" stop="1590753641869" status="passed">
+                    <name>And I enter password as "testpassword"</name>
+                    <title>And I enter password as "testpassword"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590753641869" stop="1590753643626" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="4deadc9c-ff76-4c77-8374-b50c69678924-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with valid credentials"/>
+                <label name="feature" value="As a Amazon user I should not be able to login with invalid credentials"/>
+                <label name="host" value="DESKTOP-84OUAB0"/>
+                <label name="thread" value="7696@DESKTOP-84OUAB0.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should not be able to login with invalid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
