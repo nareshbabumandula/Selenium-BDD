@@ -167,36 +167,3 @@ public class LoginLogoutPage {
 		 js.executeScript("arguments[0].click();", logoutBtn);;
 	}
 }
------------------------------------------
- // Grab the table 
-  WebElement table = driver.findElement(By.id("table-6")); 
-
-  //Get number of rows in table 
-  int numOfRow = table.findElements(By.tagName("tr")).size(); 
-
-  //Get number of columns In table.
-  int numOfCol = driver.findElements(By.xpath("//*[@id='table-6']/tbody/tr[1]/td")).size();
-
-
-  //divided Xpath In three parts to pass Row_count and Col_count values.
-  String first_part = "//*[@id='table-6']/tbody/tr[";
-  String second_part = "]/td[";
-  String third_part = "]";
-
-  //take the second column values
-  int j=2;
-
-  //List to store the second column
-  List<String> secondColumnList=new ArrayList<String>();
-
-  //Loop through the rows and get the second column and put it in a list
-  for (int i=1; i<=numOfRow; i++){
-
-    //Prepared final xpath of specific cell as per values of i and j.
-       String final_xpath = first_part+i+second_part+j+third_part;
-       //Will retrieve value from located cell and print It.
-       String test_name = driver.findElement(By.xpath(final_xpath)).getText();
-       secondColumnList.add(test_name);  
-       System.out.println(test_name);
-
-  }
