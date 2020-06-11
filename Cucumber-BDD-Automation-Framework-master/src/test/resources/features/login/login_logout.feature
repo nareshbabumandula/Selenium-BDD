@@ -37,3 +37,29 @@ Feature: As a Amazon user I should not be able to login with invalid credentials
 #	 | led tv   |
   
    
+/**
+	 * This method switch the to frame using frame Name.
+	 * 
+	 * @param nameValue
+	 *            : Frame Name wish to switch
+	 * 
+	 */
+	public boolean switchToFrameByName(String nameValue)
+			throws Throwable {
+		cmdStartTime=System.currentTimeMillis();
+		boolean flag = false;
+		try {
+			driver.switchTo().frame(nameValue);
+			flag = true;
+			return true;
+		} catch (Exception e) {
+
+			return false;
+		} finally {
+			if (flag) {
+				SuccessReport("SelectFrame ", "Frame with Name \""+nameValue+"\" is selected");			
+			} else if(!flag){
+				failureReport("SelectFrame ", "Frame with Name \""+nameValue+"\" is not selected");
+			}
+		}
+	}
